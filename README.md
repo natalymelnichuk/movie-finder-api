@@ -45,8 +45,8 @@ node server.js
 ## API Endpoints
 
 1. Search Movies by Title
-⋅⋅⋅⋅* HTTP Method: GET
-⋅⋅⋅⋅* Endpoint: /api/search
+* HTTP Method: GET
+* Endpoint: /api/search
 ⋅⋅⋅⋅* Query Parameter: title (required)
 ⋅⋅⋅⋅* Example URL: http://localhost:3000/api/search?title=batman
 ⋅⋅⋅⋅* Response: Returns an object containing search results matching the query title.
