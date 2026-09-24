@@ -47,23 +47,23 @@ node server.js
 1. Search Movies by Title
 * HTTP Method: GET
 * Endpoint: /api/search
-⋅⋅⋅⋅* Query Parameter: title (required)
-⋅⋅⋅⋅* Example URL: http://localhost:3000/api/search?title=batman
-⋅⋅⋅⋅* Response: Returns an object containing search results matching the query title.
-⋅⋅⋅⋅* Validation: Returns a 400 Bad Request status if the title query parameter is missing.
+* Query Parameter: title (required)
+* Example URL: http://localhost:3000/api/search?title=batman
+* Response: Returns an object containing search results matching the query title.
+* Validation: Returns a 400 Bad Request status if the title query parameter is missing.
 
 2. Get Detailed Information by IMDb ID
-⋅⋅⋅⋅* HTTP Method: GET
-⋅⋅⋅⋅* Endpoint: /api/movies/:id
-⋅⋅⋅⋅* URL Parameter: id (IMDb ID, e.g., tt0372784)
-⋅⋅⋅⋅* Example URL: http://localhost:3000/api/movies/tt0372784
-⋅⋅⋅⋅* Response: Returns detailed movie metadata for the specified IMDb ID.
+* HTTP Method: GET
+* Endpoint: /api/movies/:id
+* URL Parameter: id (IMDb ID, e.g., tt0372784)
+* Example URL: http://localhost:3000/api/movies/tt0372784
+* Response: Returns detailed movie metadata for the specified IMDb ID.
 
 ## Error Handling
 
-⋅⋅⋅⋅* **Validation Errors (400 Bad Request):** Sent when required parameters are omitted.
+* **Validation Errors (400 Bad Request):** Sent when required parameters are omitted.
 
-⋅⋅⋅⋅* **Server/API Errors (500 Internal Server Error):** Unhandled operational errors or external API failures are safely caught using try...catch blocks and returned as JSON error responses.
+* **Server/API Errors (500 Internal Server Error):** Unhandled operational errors or external API failures are safely caught using try...catch blocks and returned as JSON error responses.
 
 
 
