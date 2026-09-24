@@ -26,7 +26,7 @@ node -v
 **Step 1: Clone the Repository**
 Clone this repository to your local machine using Git and navigate into the project directory:
 
-git clone https://github.com/natalymelnichuk/movie-finder-api
+git clone https://github.com/natalymelnichuk/movie-finder-api 
 cd movie-finder-api
 
 **Step 3: Configure Environment Variables**
